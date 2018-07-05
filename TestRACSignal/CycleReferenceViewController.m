@@ -35,6 +35,7 @@
 {
     return [RACSignal createSignal:^RACDisposable *(id<RACSubscriber> subscriber) {
         
+        // NSLog(@"1 -- self：%@", self);
         [subscriber sendNext:@"nextValue"];
         [subscriber sendCompleted];
         

@@ -23,7 +23,7 @@
     [super viewDidLoad];
     
     [self createSignal];
-    NSLog(@"作用域外容信号：%@", _signal);
+    NSLog(@"作用域外信号：%@", _signal);
 }
 
 - (void)createSignal
