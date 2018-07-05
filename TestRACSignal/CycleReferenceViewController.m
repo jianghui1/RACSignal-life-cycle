@@ -28,7 +28,7 @@
     } completed:^{
         NSLog(@"信号完成");
     }];
-    NSLog(@"作用域内容信号：%@", _signal);
+    NSLog(@"作用域内信号：%@", _signal);
 }
 
 - (RACSignal *)createSignal
